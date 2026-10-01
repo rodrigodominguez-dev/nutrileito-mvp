@@ -93,3 +93,48 @@ O ChatGPT foi usado como apoio na estruturação da ideia, da hipótese e das in
 ## Repositório
 
 O código exportado está disponível em [nutrileito.zip](./nutrileito.zip). A aplicação publicada pode ser acessada em [nutrileito.lovable.app](https://nutrileito.lovable.app).
+
+
+## Business Model Canvas (hipóteses)
+
+| Bloco | Hipótese inicial |
+|---|---|
+| Segmentos de clientes | Hospitais gerais e especializados, públicos ou privados, com operação de refeições para pacientes internados.
+| Proposta de valor | Centralizar pedidos e dar rastreabilidade às etapas entre Enfermagem, Nutrição, Cozinha e Entrega.
+| Canais | Landing page, solicitação de demonstração e contato comercial direto.
+| Relacionamento | Demonstração consultiva, implantação assistida e suporte.
+| Fontes de receita | Assinatura SaaS por instituição; preço ainda não validado.
+| Recursos-chave | Aplicação web, infraestrutura em nuvem, equipe de produto e conhecimento dos fluxos hospitalares.
+| Atividades-chave | Desenvolver e manter o produto, apoiar a implantação e evoluir o fluxo.
+| Parcerias-chave | A identificar com hospitais, profissionais de nutrição hospitalar e fornecedores de tecnologia.
+| Estrutura de custos | Desenvolvimento, nuvem, suporte, segurança e aquisição de clientes. |
+
+## Mega prompt e ajustes solicitados
+
+O prompt de construção foi preparado no ChatGPT e enviado ao Lovable como **“NUTRILEITO — MVP”** (28/09). A especificação pediu um MVP web responsivo e demonstrável para gestão do fluxo de refeições hospitalares. O fluxo obrigatório é Paciente → Enfermagem → Nutrição → Cozinha → Nutrição (conferência final) → Entrega → Leito. O paciente não abre pedidos diretamente; profissionais fazem a avaliação nutricional; a aplicação deve priorizar dados fictícios, perfis de trabalho, rastreabilidade, histórico e apoio de IA sem decisões clínicas.
+
+Depois, foi enviado ao Lovable o ajuste **“AJUSTE DE ESCOPO — MODELO DE NEGÓCIO E MVP”** para alinhar o produto ao desafio: landing page B2B, formulário para captar leads interessados em demonstração (não pedidos de refeição), e venda manual. O ajuste especifica campos do contato, confirmação ao enviar, ausência de checkout e apresentação do fluxo comercial.
+
+Foi preparado ainda o prompt **“AJUSTE COMERCIAL — WHATSAPP PARA FECHAMENTO DA VENDA”**. Ele solicita botão para conversar pelo WhatsApp com mensagem pré-preenchida, etapas do lead até cliente e conversão reaproveitando os dados. **Esse último ajuste está anexado no chat do Lovable, mas não foi enviado/aplicado:** a tentativa foi bloqueada por falta de créditos. Assim, WhatsApp comercial e conversão de lead não são declarados como funcionalidades concluídas. Nenhum plano ou crédito pago foi adquirido.
+
+## Testes e evidências
+
+- A landing page publicada abriu sem autenticação em 01/10/2026 e apresenta a proposta, o fluxo e a solicitação de demonstração.
+- A prévia do painel exibe tela de acesso à demonstração e orienta o uso de dados fictícios. O fluxo autenticado completo ainda não foi validado nesta entrega.
+- Não foi realizado teste com hospitais ou usuários reais; não houve envio do formulário de lead.
+- A revisão de segurança do Lovable ainda precisa ser executada e conferida. A mensagem do Lovable informa uma atualização rotineira de dependências, mas isso não equivale a uma revisão de segurança.
+- A origem foi exportada como `nutrileito.zip`; a listagem do GitHub contém esse pacote e este README. Para facilitar a avaliação, recomenda-se extrair os arquivos fonte na raiz ou numa pasta `src/` em um próximo commit.
+- Capturas de tela da landing page e do painel ainda precisam ser anexadas ao repositório.
+
+## Checklist antes da submissão
+
+- [x] Repositório público na conta do autor, com nome legível.
+- [x] Aplicação publicada e landing page acessível pelo endereço acima.
+- [x] README com problema, hipótese, mercado, Canvas e documentação dos prompts/ajustes.
+- [ ] Validar o fluxo autenticado do painel com dados fictícios.
+- [ ] Executar e registrar a revisão de segurança do Lovable.
+- [ ] Anexar capturas de tela da aplicação e do painel.
+- [ ] Extrair o ZIP para que os arquivos fonte fiquem navegáveis pelo GitHub.
+- [ ] Validar a hipótese com pelo menos uma pessoa do público-alvo.
+
+> Não usar dados reais de pacientes na demonstração. Os números TAM/SAM/SOM e o preço são estimativas, não validação de mercado.
