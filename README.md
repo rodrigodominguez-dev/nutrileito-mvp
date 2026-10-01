@@ -60,9 +60,21 @@ O modelo a investigar é SaaS B2B para hospitais e instituições de saúde. A a
 | Custos | Desenvolvimento, infraestrutura, suporte e aquisição de clientes |
 | Parceiros | A identificar durante a validação |
 
-### Dimensionamento de mercado
+## Dimensionamento de mercado (TAM, SAM e SOM)
 
-TAM, SAM e SOM ainda precisam ser calculados com fontes e premissas documentadas. O próximo passo é definir o perfil de instituição atendível, estimar o número de clientes potenciais e validar um ticket de assinatura. Este README não apresenta números sem fonte ou validação.
+O cálculo abaixo é uma estimativa inicial em número de hospitais e receita recorrente potencial. A base usa hospitais gerais e especializados cadastrados no CNES; não inclui hospitais-dia isolados.
+
+| Mercado | Definição usada | Hospitais | Receita anual ilustrativa* |
+|---|---|---:|---:|
+| **TAM** | Todos os hospitais gerais e especializados no Brasil | 6.468 | R$ 77,6 milhões |
+| **SAM** | Hospitais nos sete estados que concentram cerca de 59% do total: SP, MG, BA, RJ, GO, PR e RS | 3.816 | R$ 45,8 milhões |
+| **SOM** | Meta hipotética de alcançar 1% do SAM nos primeiros três anos | 38 | R$ 456 mil |
+
+**Fonte e recorte:** o TCU, com dados do CNES de julho de 2024, identificou 6.468 hospitais gerais e especializados no Brasil e cerca de 59% deles nos sete estados indicados. [Relatório do TCU sobre hospitais gerais e especializados (dados do CNES, julho de 2024)](https://pesquisa.apps.tcu.gov.br/doc/acordao-completo/738/2025/Plen%C3%A1rio).
+
+**Premissas próprias do cenário:** preço hipotético de **R$ 1.000 por hospital ao mês** (R$ 12.000 ao ano); SAM calculado como 59% de 6.468 (aproximadamente 3.816 hospitais); SOM calculado como 1% de 3.816 (aproximadamente 38 hospitais). As receitas são clientes × R$ 12.000 por ano.
+
+Esses valores **não são previsão de vendas nem preço validado**. São um cenário para dimensionar a hipótese. O preço, a disposição a pagar, os critérios de compra e a capacidade real de atendimento precisam ser testados com hospitais. O SOM é uma meta inicial de penetração, não uma participação já conquistada.
 
 ## Uso de inteligência artificial
 
@@ -72,8 +84,7 @@ O ChatGPT foi usado como apoio na estruturação da ideia, da hipótese e das in
 
 - testar o fluxo completo com usuários;
 - validar o contato comercial e a conversão de lead em cliente;
-- entrevistar instituições do público-alvo;
-- pesquisar fontes e premissas para TAM, SAM e SOM;
+- entrevistar instituições do público-alvo e testar a hipótese de preço;
 - revisar segurança e configuração antes de qualquer uso com dados reais;
 - organizar o código-fonte em arquivos navegáveis no repositório.
 
