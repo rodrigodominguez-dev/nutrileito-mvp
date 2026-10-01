@@ -138,3 +138,10 @@ Foi preparado ainda o prompt **“AJUSTE COMERCIAL — WHATSAPP PARA FECHAMENTO 
 - [ ] Validar a hipótese com pelo menos uma pessoa do público-alvo.
 
 > Não usar dados reais de pacientes na demonstração. Os números TAM/SAM/SOM e o preço são estimativas, não validação de mercado.
+
+
+## Resultado da revisão de segurança (01/10/2026)
+
+A revisão aprofundada gratuita do Lovable concluiu sem apontar problemas específicos na lógica, permissões ou dados do aplicativo. O Lovable também informa que a verificação de dependências encontrou **2 alertas altos** no pacote `@tanstack/react-start` versão `1.168.60` (53 pacotes analisados). A correção automática foi bloqueada porque a conta está sem créditos e exige recarga; portanto, os alertas continuam pendentes e o resultado não deve ser entendido como aprovação de segurança. Não usar dados reais de pacientes.
+
+Atualização do checklist: a revisão foi executada; falta resolver e revalidar os dois alertas de dependências.
